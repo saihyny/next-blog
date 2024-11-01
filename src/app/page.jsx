@@ -5,8 +5,8 @@ import CategoryList from "@/components/categoryList/CategoryList";
 import CardList from "@/components/cardList/CardList";
 import Menu from "@/components/Menu/Menu";
 
-export default async function Home({ searchParams }) {
-  const page = await parseInt(searchParams.page) || 1;
+export default  function Home({ searchParams }) {
+  const page = parseInt(searchParams.page) || 1;
 
   return (
     <div className={styles.container}>
