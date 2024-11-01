@@ -13,7 +13,7 @@ const LoginPage = () => {
   }
 
   if (status === "authenticated") {
-    router.push("/")
+    router.push("https://flowbitz.netlify.app")
   }
   
   return (
