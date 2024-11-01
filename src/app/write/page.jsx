@@ -70,7 +70,7 @@ const WritePage = () => {
   }
 
   if (status === "unauthenticated") {
-    router.push("https://flowbitz.netlify.app");
+    router.push("/");
   }
 
   const slugify = (str) =>
